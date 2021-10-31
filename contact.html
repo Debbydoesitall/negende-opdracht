@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- hier zet je de code in de head tags -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Contact</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Contact me</h1> 
+        </header>
+
+    <main>
+        <form name="contact" method="POST" data-netlify="true">
+              <p><label>Name: <input type="text" name="name" /></label>   
+              <br><label>Email: <input type="email" name="email" /></label>
+              <br><label>Telephone number: <input type="tel" name="telephone"/></label> 
+              <br><label>Age: <input type="number" name="age"/></label> 
+              <br><label>Date of birth: <input type="date" name="date"/></label> </p>
+              <br><p>Gender:
+                <br><input type="radio" id="male" name="gender" value="male"/><label>Male</label>
+                <br><input type="radio" id="female" name="gender" value="female"/><label>Female</label> 
+                </p>
+                <br><p>Favorite cuisine:</p>
+                <p>
+                <input type="checkbox" id="cuisine1" name="cuisine1" value="French"/><label>French</label>
+                <br><input type="checkbox" id="cuisine2" name="cuisine2" value="Italian"/><label>Italian</label>
+                <br><input type="checkbox" id="cuisine3" name="cuisine3" value="Spanish"/><label for="cuisine3">Spanish</label>
+                <br><input type="checkbox" id="cuisine4" name="cuisine4" value="Chinese"/><label for="cuisine4">Chinese</label>
+                <br><br><label>Favorite apron color: <input type="color" name="apron" /></label>    
+                <br><label>Biography: <textarea name="biography" rows="10" cols="40" ></textarea></label>
+                <br><label>upload your latest recipe: <input type="file" name="recipe" /></label>
+                <br><label>URL to recipe website: <input type="url" name="url" /></label>
+                <br><button type="reset" >Reset</button>
+                <br><button type="submit" >Send</button>
+            </p>
+        </form>
+
+    </main>
+    <footer>
+        <nav class="navigation-box">
+            <ul class="nav-list">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="blog.html">My blog</a></li>
+                <li><a href="contact.html">Contact me</a></li>
+            </ul>
+        </nav>
+
+    </footer>
+</body>
+</html>
